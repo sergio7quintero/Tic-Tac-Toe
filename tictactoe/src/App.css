@@ -1,0 +1,92 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+/* App.css */
+
+body {
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #1e3c72, #2a5298);
+  color: white;
+  text-align: center;
+}
+
+.game {
+  display: flex;
+  gap: 30px;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 12px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.game-board {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.status {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 6px;
+}
+
+.board-row {
+  display: flex;
+}
+
+.square {
+  width: 80px;
+  height: 80px;
+  font-size: 32px;
+  font-weight: bold;
+  border: 2px solid white;
+  background: rgba(255, 255, 255, 0.1);
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6px;
+}
+
+.square:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.game-info {
+  padding: 15px;
+  text-align: left;
+}
+
+.game-info ol {
+  padding-left: 20px;
+}
+
+.game-info button {
+  padding: 8px 12px;
+  margin: 5px 0;
+  border: none;
+  background: #ff9800;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: 0.3s ease-in-out;
+}
+
+.game-info button:hover {
+  background: #e68900;
+}
